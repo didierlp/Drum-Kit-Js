@@ -38,6 +38,8 @@
 
 
  <script>
+     window.alert("Utiliza las teclas A, S, D, F, Z, X, C, V, de tu teclado para crear ritmos");
+
     window.addEventListener("keydown", e => {
         const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
         const pad = document.querySelector(`.pad[data-key="${e.keyCode}"]`);
